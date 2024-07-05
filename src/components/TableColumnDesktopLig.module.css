@@ -1,0 +1,101 @@
+.header {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 49px;
+}
+.tableHeaderDesktopLig {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-base) var(--padding-5xs);
+}
+.rowItem {
+  flex: 1;
+  position: relative;
+}
+.tableRowItemDesktopL {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base);
+}
+.rowItem1 {
+  flex: 1;
+  position: relative;
+}
+.tableRowItemDesktopL1 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base);
+}
+.rowItem2 {
+  flex: 1;
+  position: relative;
+}
+.tableRowItemDesktopL2 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base);
+}
+.rowItem3 {
+  flex: 1;
+  position: relative;
+}
+.tableRowItemDesktopL3 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base);
+}
+.rowItem4 {
+  flex: 1;
+  position: relative;
+}
+.tableRowItemDesktopL4 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base);
+}
+.rows,
+.tableColumnDesktopLig {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rows {
+  align-self: stretch;
+  background-color: var(--light-gray-gray-50);
+  border-top: 1px solid var(--light-gray-gray-300);
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  overflow: hidden;
+  color: var(--light-gray-gray-800);
+}
+.tableColumnDesktopLig {
+  width: 161px;
+  text-align: left;
+  font-size: var(--body-sans-serif-desktop-default-body-s-default-size);
+  color: var(--light-gray-gray-900);
+  font-family: var(--body-sans-serif-desktop-default-body-s-default);
+}

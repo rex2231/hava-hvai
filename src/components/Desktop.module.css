@@ -1,0 +1,771 @@
+.unselectedCheckbox {
+  margin: 0;
+  height: 14px;
+  width: 14px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 2px solid var(--light-gray-gray-700);
+  box-sizing: border-box;
+}
+.tableHeaderCheckboxDe {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-mid);
+}
+.unselectedCheckbox1 {
+  margin: 0;
+  height: 14px;
+  width: 14px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 2px solid var(--light-gray-gray-700);
+  box-sizing: border-box;
+}
+.tableRowItemCheckbox {
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-mid) var(--padding-mini);
+}
+.unselectedCheckbox2 {
+  margin: 0;
+  height: 14px;
+  width: 14px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 2px solid var(--light-gray-gray-700);
+  box-sizing: border-box;
+}
+.tableRowItemCheckbox1 {
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-mid) var(--padding-mini);
+}
+.unselectedCheckbox3 {
+  margin: 0;
+  height: 14px;
+  width: 14px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 2px solid var(--light-gray-gray-700);
+  box-sizing: border-box;
+}
+.tableRowItemCheckbox2 {
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-mid) var(--padding-mini);
+}
+.unselectedCheckbox4 {
+  margin: 0;
+  height: 14px;
+  width: 14px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 2px solid var(--light-gray-gray-700);
+  box-sizing: border-box;
+}
+.tableRowItemCheckbox3 {
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-mid) var(--padding-mini);
+}
+.unselectedCheckbox5 {
+  margin: 0;
+  height: 14px;
+  width: 14px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 2px solid var(--light-gray-gray-700);
+  box-sizing: border-box;
+}
+.rows,
+.tableRowItemCheckbox4 {
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  overflow: hidden;
+}
+.tableRowItemCheckbox4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-mid) var(--padding-mini);
+}
+.rows {
+  border-radius: var(--br-9xs) 0 0 var(--br-9xs);
+  background-color: var(--light-gray-gray-50);
+  border-top: 1px solid var(--light-gray-gray-300);
+  border-left: 1px solid var(--light-gray-gray-300);
+}
+.rows,
+.tableSelectionColumnDes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.header {
+  position: relative;
+  font-size: var(--body-sans-serif-desktop-default-body-s-default-size);
+  font-weight: 600;
+  font-family: var(--body-sans-serif-desktop-default-body-s-default);
+  color: var(--light-gray-gray-900);
+  text-align: left;
+  display: inline-block;
+  min-width: 67px;
+}
+.arrowIcon {
+  height: 12px;
+  width: 10px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.tableHeaderDesktopLig {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 914px var(--padding-5xs) var(--padding-9xs);
+  gap: 6px;
+}
+.rowItem {
+  flex: 1;
+  position: relative;
+  font-size: var(--body-sans-serif-desktop-default-body-s-default-size);
+  font-family: var(--body-sans-serif-desktop-default-body-s-default);
+  color: var(--light-gray-gray-800);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.tableRowItemDesktopL {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base) var(--padding-sm)
+    var(--padding-7xs);
+  max-width: 100%;
+}
+.rowItem1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--body-sans-serif-desktop-default-body-s-default-size);
+  font-family: var(--body-sans-serif-desktop-default-body-s-default);
+  color: var(--light-gray-gray-800);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.tableRowItemDesktopL1 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base) var(--padding-sm)
+    var(--padding-7xs);
+  max-width: 100%;
+}
+.rowItem2 {
+  flex: 1;
+  position: relative;
+  font-size: var(--body-sans-serif-desktop-default-body-s-default-size);
+  font-family: var(--body-sans-serif-desktop-default-body-s-default);
+  color: var(--light-gray-gray-800);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.tableRowItemDesktopL2 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base) var(--padding-sm)
+    var(--padding-7xs);
+  max-width: 100%;
+}
+.rowItem3 {
+  flex: 1;
+  position: relative;
+  font-size: var(--body-sans-serif-desktop-default-body-s-default-size);
+  font-family: var(--body-sans-serif-desktop-default-body-s-default);
+  color: var(--light-gray-gray-800);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.tableRowItemDesktopL3 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base) var(--padding-sm)
+    var(--padding-7xs);
+  max-width: 100%;
+}
+.rowItem4 {
+  flex: 1;
+  position: relative;
+  font-size: var(--body-sans-serif-desktop-default-body-s-default-size);
+  font-family: var(--body-sans-serif-desktop-default-body-s-default);
+  color: var(--light-gray-gray-800);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.rows1,
+.tableRowItemDesktopL4 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-gray-gray-300);
+  box-sizing: border-box;
+}
+.tableRowItemDesktopL4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base) var(--padding-sm)
+    var(--padding-7xs);
+  max-width: 100%;
+}
+.rows1 {
+  background-color: var(--light-gray-gray-50);
+  border-top: 1px solid var(--light-gray-gray-300);
+  overflow: hidden;
+  flex-direction: column;
+}
+.rows1,
+.tableColumnDesktopLig,
+.tableDesktopLight {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.tableColumnDesktopLig {
+  flex: 1;
+  flex-direction: column;
+  min-width: 651px;
+}
+.tableDesktopLight {
+  position: absolute;
+  top: 152px;
+  left: 312px;
+  width: 1400px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.section1 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  font-family: var(--body-sans-serif-desktop-default-body-s-default);
+  color: var(--light-gray-gray-800);
+  text-align: left;
+}
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider {
+  height: 4px;
+  width: 950px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--light-gray-gray-800);
+  display: none;
+  max-width: 100%;
+}
+.section {
+  position: absolute;
+  top: 100px;
+  left: 312px;
+  width: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.label {
+  position: relative;
+  font-size: var(--body-sans-serif-desktop-default-body-s-default-size);
+  font-weight: 600;
+  font-family: var(--body-sans-serif-desktop-default-body-s-default);
+  color: var(--light-gray-gray-50);
+  text-align: center;
+  display: inline-block;
+  min-width: 62px;
+}
+.buttonDesktopLight {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs-5) var(--padding-mid) var(--padding-5xs-5);
+  background-color: var(--black-transparent-black-800);
+  position: absolute;
+  top: 90px;
+  left: 1716px;
+  border-radius: var(--br-31xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.buttonDesktopLight:hover {
+  background-color: var(--color-darkslategray-100);
+}
+.background {
+  height: 40px;
+  width: 80px;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-9xs);
+  background-color: var(--light-gray-gray-100);
+  display: none;
+  opacity: 0.95;
+}
+.editIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.leftIcon {
+  height: 32px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.copyIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.centerIcon {
+  height: 32px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.deleteIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.quickActionDesktopLight,
+.rightIcon {
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+}
+.rightIcon {
+  height: 32px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.quickActionDesktopLight {
+  position: absolute;
+  top: 188px;
+  left: 1732px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  gap: var(--gap-5xs);
+}
+.background1 {
+  height: 40px;
+  width: 80px;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-9xs);
+  background-color: var(--light-gray-gray-100);
+  display: none;
+  opacity: 0.95;
+}
+.editIcon1 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.leftIcon1 {
+  height: 32px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.copyIcon1 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.centerIcon1 {
+  height: 32px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.deleteIcon1 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.quickActionDesktopLight1,
+.rightIcon1 {
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+}
+.rightIcon1 {
+  height: 32px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.quickActionDesktopLight1 {
+  position: absolute;
+  top: 238px;
+  left: 1732px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  gap: var(--gap-5xs);
+}
+.background2 {
+  height: 40px;
+  width: 80px;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-9xs);
+  background-color: var(--light-gray-gray-100);
+  display: none;
+  opacity: 0.95;
+}
+.editIcon2 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.leftIcon2 {
+  height: 32px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.copyIcon2 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.centerIcon2 {
+  height: 32px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.deleteIcon2 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.quickActionDesktopLight2,
+.rightIcon2 {
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+}
+.rightIcon2 {
+  height: 32px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.quickActionDesktopLight2 {
+  position: absolute;
+  top: 288px;
+  left: 1732px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  gap: var(--gap-5xs);
+}
+.background3 {
+  height: 40px;
+  width: 80px;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-9xs);
+  background-color: var(--light-gray-gray-100);
+  display: none;
+  opacity: 0.95;
+}
+.editIcon3 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.leftIcon3 {
+  height: 32px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.copyIcon3 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.centerIcon3 {
+  height: 32px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.deleteIcon3 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.quickActionDesktopLight3,
+.rightIcon3 {
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+}
+.rightIcon3 {
+  height: 32px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.quickActionDesktopLight3 {
+  position: absolute;
+  top: 338px;
+  left: 1732px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  gap: var(--gap-5xs);
+}
+.background4 {
+  height: 40px;
+  width: 80px;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-9xs);
+  background-color: var(--light-gray-gray-100);
+  display: none;
+  opacity: 0.95;
+}
+.editIcon4 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.leftIcon4 {
+  height: 32px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.copyIcon4 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.centerIcon4 {
+  height: 32px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.deleteIcon4 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.quickActionDesktopLight4,
+.rightIcon4 {
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+}
+.rightIcon4 {
+  height: 32px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.quickActionDesktopLight4 {
+  position: absolute;
+  top: 378px;
+  left: 1732px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  gap: var(--gap-5xs);
+}
+.desktop1Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 60px;
+  object-fit: cover;
+}
+.desktop1 {
+  margin: 0;
+  width: 1920px;
+  height: 1024px;
+  background-color: var(--light-gray-gray-50);
+  max-width: 100%;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .desktop1 {
+    height: auto;
+    min-height: 1024;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tableColumnDesktopLig {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section1 {
+    font-size: var(--body-sans-serif-desktop-strong-body-l-strong-size);
+  }
+}

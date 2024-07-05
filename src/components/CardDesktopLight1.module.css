@@ -1,0 +1,61 @@
+.imageIcon {
+  height: 104px;
+  width: 104px;
+  position: relative;
+  object-fit: cover;
+  min-height: 104px;
+}
+.title {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.moreIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 18px;
+}
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.metadata {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+  color: var(--light-gray-gray-700);
+}
+.textContent {
+  flex: 1;
+  background-color: var(--light-gray-gray-50);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-5xl);
+  gap: var(--gap-9xs);
+}
+.cardDesktopLight {
+  position: absolute;
+  top: 276px;
+  left: 625px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--light-gray-gray-200);
+  box-sizing: border-box;
+  width: 280px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--body-sans-serif-desktop-default-body-s-default-size);
+  color: var(--light-gray-gray-900);
+  font-family: var(--body-sans-serif-desktop-default-body-s-default);
+}
